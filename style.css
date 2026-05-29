@@ -90,3 +90,11 @@ footer{
     padding:20px;
     font-size:25px;
 }
+#botao-agua{
+    background:#2196f3;
+}
+
+#botao-agua:hover{
+    background:#0d47a1;
+    transform:scale(1.1);
+}
