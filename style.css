@@ -1,0 +1,92 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial;
+}
+
+body{
+    background:#f0fff0;
+    text-align:center;
+}
+
+/* TOPO */
+
+header{
+    background:#2e7d32;
+    color:white;
+    padding:60px 20px;
+}
+
+header h1{
+    font-size:50px;
+    margin-bottom:20px;
+}
+
+header p{
+    font-size:22px;
+    margin-bottom:20px;
+}
+
+/* BOTÃO */
+
+button{
+    padding:15px 30px;
+    border:none;
+    border-radius:10px;
+    background:#4caf50;
+    color:white;
+    font-size:18px;
+    cursor:pointer;
+    transition:0.4s;
+}
+
+button:hover{
+    background:#1b5e20;
+    transform:scale(1.1);
+}
+
+/* CARDS */
+
+.cards{
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    flex-wrap:wrap;
+    padding:50px 20px;
+}
+
+.card{
+    background:white;
+    width:300px;
+    padding:30px;
+    border-radius:15px;
+    box-shadow:0 4px 10px rgba(0,0,0,0.2);
+    transition:0.4s;
+}
+
+.card:hover{
+    transform:translateY(-10px);
+}
+
+/* CONTADOR */
+
+.contador{
+    background:#4caf50;
+    color:white;
+    padding:50px;
+}
+
+#numero{
+    font-size:70px;
+    margin-top:20px;
+}
+
+/* RODAPÉ */
+
+footer{
+    background:#1b5e20;
+    color:white;
+    padding:20px;
+    font-size:25px;
+}
